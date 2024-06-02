@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", "sans-serifs";
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+section {
+  padding: 136px 9% 20px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-left .tm {
+  font-size: 8px;
+}
+
+.navbar {
+  font-size: 20px;
+  line-height: 26px; /* 130% */
+}
+
+.navbar-link {
+  margin-left: 35px;
+}
+
+.home {
+  color: #f55;
+  font-weight: 700;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.btn .download {
+  color: #fff;
+}
+
+.btn .get-started {
+  color: #fff;
+}
+
+.hero-content {
+  display: flex;
+  flex-basis: 50%;
+  margin-top: 50px;
+}
+
+.hero-left {
+  margin-top: 60px;
+}
+
+.hero-content .hero-heading {
+  color: #000;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px; /* 100% */
+  margin-bottom: 35px;
+}
+
+.hero-content .hero-paragraph {
+  color: #bbb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+
+.btn-parent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn-parent .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.watch-video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  text-transform: capitalize;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.screen {
+  flex-shrink: 0;
+  width: 223.758px;
+  height: 484.152px;
+  background-color: #fff;
+  transform: rotate(-15deg);
+  border: 10px solid #000;
+  border-radius: 40px;
+}
+
+.screen-1 {
+  z-index: 3;
+  margin-right: -100px;
+}
+
+.screen-2 {
+  z-index: 2;
+  margin-right: -100px;
+  margin-top: 85px;
+}
+
+.screen-3 {
+  z-index: 1;
+  margin-top: 170px;
+  margin-right: -30px;
+}
+
+.ellipse {
+  z-index: 0;
+  position: absolute;
+  margin-top: -80px;
+  margin-right: -150px;
+}
+
+.inclined-tag {
+  margin-top: 20px;
+}
+
+.features-content {
+  margin-top: -150px;
+}
+
+.advantages-content {
+  margin-top: -150px;
+}
+
+.customize-contect {
+  margin-top: -300px;
+}
+
+.testimonial-content {
+  margin-top: -180px;
+}
+
+.faq-content {
+  margin-top: -30px;
+}
