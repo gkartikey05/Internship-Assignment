@@ -1,5 +1,10 @@
 {
-  "rewrite": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "version": 2,
+  "builds": [{ "src": "*.html", "use": "@vercel/node" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
 }
